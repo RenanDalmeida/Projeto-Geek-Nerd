@@ -10,4 +10,105 @@
 }
 
 
+body {
+    background-image: url(../img/PlanoFundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Jogos {
+    margin-left: 36% ;
+    margin-top: 10px;
+
+
+}
+
+.fa-search{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+  .titulo_jogos {
+    color: var(--titulo);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#570F65;
+    font-size: 3em; color: var(--titulo);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+
+
+
+.container  img {
+    width: 70px;
+    height: 110px;
+    
+  
+}
+
+.container {
+    margin-left: 52px ;
+    margin-top: 80px;
+}
+
+
+
+    .a img { 
+      margin-right: 60px;
+      margin-bottom: 20px;
+      
+      
+    }
+
+    .b img { 
+
+        margin-right: 60px;
+        margin-bottom: 20px;
+       
+    }
+    .c img { 
+        margin-right: 60px;
+        margin-bottom: 20px;
+       
+    }
+
+    .a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .b {
+        display: flex;
+        justify-content: center;
+    }
+
+    .c {
+        display: flex;
+        justify-content: center;
+    }
+
+
+/* .container {
+    margin-left: 25%;
+    margin-top: 100px;
+} */
+
+
+@media(max-width: 1366px) {
+    body {
+        background-image: url(../img/PlanoFundo.jpg) none;
+        /* background-image: url(../img/Desktop.jpg) */
+    }
+    
+}
+
+ 
+
 
