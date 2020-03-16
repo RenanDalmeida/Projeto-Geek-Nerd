@@ -1,0 +1,13 @@
+:root{
+    --texto: #707070;
+    --textomobile: #0066FE;
+    --titulo: #00FEA1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
