@@ -108,6 +108,34 @@ body{
         margin-top: -115px;
     }
 
+    @media(min-width:880px){
+        .menu img {
+            width: 35%;
+            margin:0 auto
+        }
+
+        body{
+            background-image: url(../img/PlanoFundo.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        form h1 {
+            color: var(--titulo);
+            text-align: center;
+            padding-bottom: 0;
+            text-transform: uppercase
+         }
+
+         .sociais{
+             text-align: center;
+             padding-right: 330px;
+             font-size: 1.5em;
+         }
+
+
+}
 
 
 
