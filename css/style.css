@@ -40,6 +40,7 @@ body {
     font-size: 3em; color: var(--titulo);
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: -1px -1px #570F65, 1px 1px #570F65
    
 }
 
@@ -48,7 +49,7 @@ body {
 
 .container  img {
     width: 70px;
-    height: 110px;
+    height: 107px;
     
   
 }
@@ -100,15 +101,142 @@ body {
     margin-top: 100px;
 } */
 
+@media(min-width: 800px) {
 
-@media(max-width: 1366px) {
-    body {
-        background-image: url(../img/PlanoFundo.jpg) none;
-        /* background-image: url(../img/Desktop.jpg) */
+    .titulo_jogos {
+
+        margin-left: 25px;
+    
+    }
+
+
+    .container img {
+        width: 130px;
+        height: 200px;
+    }
+      
+
+
+    .a {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+    }
+
+
+    .b {
+
+        display: flex;
+        justify-content: center;
+       
+        margin-bottom: 20px;
+    }
+
+
+    .c {
+
+        display: flex;
+        justify-content: center;
+        
+        margin-bottom: 20px;
+    }
+
+    a {
+
+        margin-left: 50px;
+    
+    }
+
+    .fa-search {
+
+        color: white;
+        margin-left: 65px;
+        margin-bottom: 10px;
     }
     
 }
 
+@media(min-width: 1366px) {
+
+    body {
+        background-image: url(../img/PlanoFundo.jpg) none;
+        background-image: url(../img/Desktop.jpg)
+    }
+
+
+    .container img {
+        width: 230px;
+        height: 352px;
+    }
+      
+    .a img {
+        margin-right: 250px;
+        margin-bottom: 30px;
+    }
+    .b img {
+        margin-right: 250px;
+        margin-bottom: 30px;
+    }
+    .c img {
+        margin-right: 250px;
+        margin-bottom: 30px;
+    }
+
+    .a {
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+    }
+
+    .b {
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+    }
+
+    .c {
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+    }
+
+    .titulo_jogos {
+        margin-left: 150px;
+        
+    }
+
+    .fa-search {
+
+        font-size: 20px;
+        margin-left: 302px;
+        margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+}
+
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
