@@ -3,10 +3,70 @@
     --textomobile: #0066FE;
     --titulo: #00FEA1;
 }
-
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+height: 100%;
+background-color: black ;  
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    color: white;
+    
+}
+/*  --------------- INICIO HEADER-------------------*/
+header{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(24, 24, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.friends img{
+    border-radius: 100%;
+    height: 50px;
+}
+.menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 13px 10px rgba(24, 24, 24, 0.5);
+}
+.friends img{
+    width: 60px;
+}
+
+.logo{
+    display: flex;
+    margin-right: 5em;
+}
+.logo img{
+    width: 140px;
+}
+.icon .fa-bars{
+    font-size: 2em;
+    color: white;
+}
+.menu #navegar{
+    position: absolute;
+    top: 80px;
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    right: 0;
+    color: white;
+    display: none;
+    margin-bottom: 90px;
+}
+#navegar a{
+    text-decoration: none;
+    color: white;
 }
 
 body{
@@ -47,10 +107,11 @@ body{
     margin: 10em auto;
     }
 
+
+
     form h1{
         color: var(--titulo);
         text-align: center;
-        padding-bottom: 3em;
         text-transform: uppercase;
     }
 
@@ -68,6 +129,7 @@ body{
         display: flex;
         flex-direction: column;
         padding: 0.4em;
+        margin-left:2em ;
     }
 
     input[type="password"],
@@ -89,7 +151,6 @@ body{
 
     .btn{
         width: 90%;
-        margin: 1em;
         border-radius: 2em;
         height: 3em;
         background-color: #1E1C21;
@@ -144,8 +205,10 @@ body{
              font-size: 1.5em;
          }
 
+         .logo{
+             margin-right: 16em;
+         }
+
 
 }
-
-
 
