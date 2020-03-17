@@ -54,6 +54,10 @@ body{
         text-transform: uppercase;
     }
 
+    .titulo h1{
+        padding-bottom: 0em;
+    }
+
     .campo label{
         color: var(--texto);
         padding: 0.5em;
@@ -68,6 +72,7 @@ body{
 
     input[type="password"],
     input[type="email2"],
+    input[type="text"],
     select{
         width: 90%;
         background-color: rgba(30, 28, 33, 0.678);
@@ -106,6 +111,11 @@ body{
     .sociais{
         text-align: start;
         margin-top: -115px;
+    }
+
+    .sociais-cadastro{
+        padding-left: 1em;
+        margin-top: -150px;
     }
 
     @media(min-width:880px){
