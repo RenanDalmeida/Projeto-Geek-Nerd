@@ -6,14 +6,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geek/Nerd</title>
+    <script src="https://kit.fontawesome.com/525a7ba6e9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+   
 
 </head>
 
 <body>
 
-    <header class="topo_amigos">
+    <header>
+        <div class="menu">
+            <div class="friends">
+                <a href="">
+                    <img src="img/LogoGeek.png" alt="Link amigos playing">
+                </a>
+            </div><!--Fim DIV friends-->
+            <div class="logo">
 
+                <img src="img/nerds.png" alt="">
+            </div><!--Fim DIV logo-->
+            <div class="icon">
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <nav id="navegar">
+                    <ul>
+                     <a href="#">
+                       <li>Login/Cadastro</li>
+                    </a>
+                     <a href="#">
+                       <li>Jogos</li>
+                    </a>
+                     <a href="#">
+                       <li>Ao Vivo</li>
+                    </a>
+                     <a href="#">
+                       <li>Players</li>
+                    </a>
+                     <a href="#">
+                       <li>Sobre</li>
+                    </a>
+                     <a href="#">
+                       <li>Suporte</li>
+                    </a>
+
+                    </ul>
+                </nav>
+            </div><!--Fim DIV icon-->
+
+        </div><!--Fim DIV menu-->
     </header>
 
     <main>
@@ -34,7 +75,7 @@
 
                 <div class="container">
                     <p>Lucas está jogando Lol - 1h</p>
-                    <img src="img/Cs.jpg" Alt="Imagem do jogo Counter Strike Global Offensive">
+                    <img src="img/Lol.jpg" Alt="Imagem do jogo Counter Strike Global Offensive">
                 </div>
 
             </div>
@@ -110,6 +151,19 @@
     <footer>
 
     </footer>
+
+    <script>
+
+        function botaoMenu(){
+
+        var m = document.getElementById("navegar");
+        if(m.style.display == "block"){
+            m.style.display = "none";
+        }else{
+            m.style.display = "block"
+        }
+        }
+    </script>
 
 </body>
 
