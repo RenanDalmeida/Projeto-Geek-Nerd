@@ -18,50 +18,61 @@
                 <a href="">
                     <img src="img/LogoGeek.png" alt="Link amigos playing">
                 </a>
-            </div>
-            <!--Fim DIV friends-->
+            </div><!--Fim DIV friends-->
             <div class="logo">
 
                 <img src="img/nerds.png" alt="">
-
-                <div class="icon">
-                    <a href="#" onclick="botaoMenu()">
-                        <i class="fa fa-bars"></i>
+            </div><!--Fim DIV logo-->
+            <div class="icon">
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <nav id="navegar">
+                    <ul>
+                     <a href="#">
+                       <li>Login/Cadastro</li>
                     </a>
-                    <nav id="navegar">
-                        <ul>
-                            <a href="#">
-                                <li>Login/Cadastro</li>
-                            </a>
-                            <a href="#">
-                                <li>Jogos</li>
-                            </a>
-                            <a href="#">
-                                <li>Ao Vivo</li>
-                            </a>
-                            <a href="#">
-                                <li>Players</li>
-                            </a>
-                            <a href="#">
-                                <li>Sobre</li>
-                            </a>
-                            <a href="#">
-                                <li>Suporte</li>
-                            </a>
-    
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <!--Fim DIV logo-->
-           
-            <!--Fim DIV icon-->
+                     <a href="#">
+                       <li>Jogos</li>
+                    </a>
+                     <a href="#">
+                       <li>Ao Vivo</li>
+                    </a>
+                     <a href="#">
+                       <li>Players</li>
+                    </a>
+                     <a href="#">
+                       <li>Sobre</li>
+                    </a>
+                     <a href="#">
+                       <li>Suporte</li>
+                    </a>
 
-        </div>
-        <!--Fim DIV menu-->
+                    </ul>
+                </nav>
+            </div><!--Fim DIV icon-->
+                <ul class="log">
+                    <a href="">
+                        <li>Login</li>
+                    </a>
+                </ul>
+        </div><!--Fim DIV menu-->
+
     </header>
 
+    
+
     <main>
+        
+        <div class="men2">
+            <ol>
+                <a href=""><li>Jogos</li></a>
+                <a href=""><li>Ao Vivo</li></a>
+                <a href=""><li>Players</li></a>
+                <a href=""><li>Sobre</li></a>
+                <a href=""><li>Suporte</li></a>
+            </ol>
+        </div>
 
         <form action="" method="GET" class="form-cadastro">
 
@@ -88,27 +99,21 @@
                 </div>
             </div>
         </form>
-
-        </footer>
-
-
     </main>
 
 
-    <footer class="rodape">
+    <script>
 
-        <div class="sociais">
-            <a href="https://twitter.com/">
-                <i class="fab fa-twitter"></i>
-            </a>
+        function botaoMenu(){
 
-            <a href="https://pt-br.facebook.com/">
-                <i class="fab fa-facebook"></i>
-            </a>
-
-        </div>
-
-
+        var m = document.getElementById("navegar");
+        if(m.style.display == "block"){
+            m.style.display = "none";
+        }else{
+            m.style.display = "block"
+        }
+        }
+    </script>
 
 
 </body>
