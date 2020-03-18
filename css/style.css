@@ -80,8 +80,9 @@ li{
 .banner .fa-play{
     position: absolute;
     top: 210px;
-    width: 100%;
-    height: 100%;
+    left: 170px;
+    width: 30%;
+    height: 30%;
     font-size: 4em;
     color: purple;
     text-align: center;
@@ -100,6 +101,10 @@ background-size: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.info h1{
+    padding-top: 30px;
+    margin-bottom: 30px;
 }
 .card{
     width: 40%;
@@ -127,6 +132,8 @@ background-size: 100%;
     background-repeat: no-repeat;
 }
 .stream h2{
+   padding-top: 30px;
+   margin-bottom: 30px;
     text-align: center;
 }
 .ctn{
@@ -211,3 +218,35 @@ background-size: 100%;
 
 /* ------------------------ FIM SECTION EQUIPE ----------------*/
 
+@media screen and (max-width: 768px){
+
+.banner .fa-play {
+    top: 300px;
+    left: 280px;
+}
+.info h1{
+    width: 80%;
+}
+.ctn{
+    padding-left: 130px;
+}
+.you{
+    width: 40%;
+}
+.streamer img{
+width: 40%;
+}
+.gamer{
+    width: 30%;
+}
+.ao_vivo{
+    height: 5%;
+}
+.m1 img{
+    width: 85%;
+}
+.m1 p{
+    width: 100%;
+    margin-bottom: 50px;
+}
+}
