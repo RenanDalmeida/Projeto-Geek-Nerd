@@ -10,8 +10,7 @@
 }
 
 img{
-    width: 7em;
-    margin-left: ;
+    width: 6em;
 }
 
 p{
@@ -23,29 +22,6 @@ p{
 body{
     background-image: url(../img/PlanoFundo.jpg);
 
-}
-
-.menu_amigos{
-    width: 100%;
-    height: 60px;
-}
-
-#navegar {
-    display: none
-}
-
-#navegar a{
-    text-decoration: none;
-    color: white;
-}
-
-#navegar ul{
-    list-style-type: none;
-}
-
-.icon .fa-bars{
-    font-size: 2em;
-    color: white;
 }
 
 .container{
