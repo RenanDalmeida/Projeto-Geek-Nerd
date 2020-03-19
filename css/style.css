@@ -21,10 +21,10 @@ p{
 
 body{
     background-image: url(../img/PlanoFundo.jpg);
-
 }
 
-.container{
+
+.container_amigos{
     width: 90%;
     height: 100%;
     display: flex;
